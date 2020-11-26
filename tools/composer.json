@@ -1,0 +1,30 @@
+{
+    "name": "yaowen/tools",
+    "description": "personal use",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dainel.zhang",
+            "email": "dainel.zhang@silksoftware.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo_mysql": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tools\\": "src/Tools/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tools\\": "tests/Tools"
+        }
+    }
+}
